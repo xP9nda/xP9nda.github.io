@@ -1,0 +1,164 @@
+/* Reset some default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #eee;
+}
+
+header {
+    background-color: #222;
+    color: #eee;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    text-align: center; /* Center the navbar components */
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: #eee;
+}
+
+.content {
+    max-width: 60%;
+    margin: 20px auto; /* Margin added for centering */
+    padding: 40px;
+    background-color: #444;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: #222;
+    color: #eee;
+    padding: 1rem 0;
+}
+
+/* Style links */
+a:hover {
+    color: #fff;
+}
+
+/* Style buttons */
+.button {
+    background-color: #555;
+    color: #eee;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.button:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    background-color: #666;
+    transform: scale(1.1);
+}
+
+
+.title {
+    text-align: center;
+    background-color: #222;
+    color: #eee;
+    padding: 1rem;
+    margin: 0;
+}
+
+/* Highlight active button */
+.button.active {
+    background-color: #0074D9;
+}
+
+.button.active:hover {
+    background-color: #0088FF;
+    transform: scale(1.1);
+}
+
+.button.bold {
+    font-weight: bold;
+}
+
+.button.full {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Style the project entries */
+.portfolio-item {
+    background-color: #444;
+    color: #eee;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    display: flex;
+}
+
+/* Style the project image */
+.project-image {
+    max-width: 15%;
+    margin-right: 20px;
+}
+
+/* Style the info containers */
+
+.subheading-date {
+    padding: 4px 16px 4px 16px;
+    background-color: #0074D9;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* Style the project details */
+.project-details {
+    flex: 1;
+}
+
+/* Style the project title */
+.project-details h1 {
+    font-size:1.5rem;
+    margin-bottom: 8px;
+}
+
+/* Style the project description */
+.description {
+    margin-top: 10px;
+}
+
+/* Add margin to separate project entries */
+.portfolio-item:not(:last-child) {
+    margin-bottom: 20px;
+}
